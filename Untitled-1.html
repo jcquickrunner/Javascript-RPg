@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript RPG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <p>this is an experiment game I created</p>
+        <hr>
+        <h2>Choose your character!</h2>
+
+    </div>
+
+
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Werewolf')">
+            <img src="images/Werewolf.jpg" alt="werewolf">
+            <div>
+                <h3>werewolf</h3>
+                <P>fierce creature of the night high in stamina and speed which makes up for their lack in strength.</P>
+            </div>
+
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="images/Warrior.jpg" alt="warrior">
+            <div>
+                <h3>warrior</h3>
+                <P>Valiant and honorable, very strong but significantly slower and clumsier</P>
+            </div>
+
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Dwarf')">
+            <img src="images/Dwarf.jpg" alt="dwarf">
+            <div>
+                <h3>Dwarf</h3>
+                <P>small but dont let that fool you, dwarves are glass cannons.</P>
+            </div>
+
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="images/Rogue.jpg" alt="rogue">
+            <div>
+                <h3>Rogue</h3>
+                <P> Very fast and agile, but not very resistant.</P>
+            </div>
+
+        </a>
+
+
+    </div>
+
+
+
+    <div class="actions">
+
+    </div>
+
+
+
+    <div class="arena">
+
+
+    </div>
+
+
+    <div class="enemy">
+
+
+    </div>
+
+
+   
+
+</body>
+
+</html>
